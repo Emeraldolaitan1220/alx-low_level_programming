@@ -1,12 +1,17 @@
 #include <stdio.h>
-int main(void) { 
-    int intType;
-    float floatType;
-    double doubleType;
-    char charType;
-    printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of float: %zu bytes\n", sizeof(floatType));
-    printf("Size of double: %zu bytes\n", sizeof(doubleType));
-    printf("Size of char: %zu byte\n", sizeof(charType));
-    return 0;
+
+/**
+ * main - printing the sizeof
+ * return :always 0 success
+ */
+int main(void)
+{
+	printf("Size of char: %zu bytes\n", sizeof(char));
+        printf("Size of short: %zu bytes\n", sizeof(short));
+        printf("Size of int: %zu bytes\n", sizeof(int));
+        printf("Size of long: %zu bytes\n", sizeof(long));
+        printf("Size of float: %zu bytes\n", sizeof(float));
+        printf("Size of double: %zu bytes\n", sizeof(double));
+        printf("Size of long double: %zu bytes\n", sizeof(long double));
+	return(0);
 }
