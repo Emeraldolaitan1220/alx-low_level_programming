@@ -2,6 +2,7 @@
 
 /**
  * main - printing the sizeof
+ * discription :sizeof of  various types
  * return :always 0 success
  */
 int main(void)
@@ -13,5 +14,6 @@ int main(void)
         printf("Size of float: %zu bytes\n", sizeof(float));
         printf("Size of double: %zu bytes\n", sizeof(double));
         printf("Size of long double: %zu bytes\n", sizeof(long double));
+	printf("size of long int: %zu bytes\n", sizeof(long int));
 	return(0);
 }

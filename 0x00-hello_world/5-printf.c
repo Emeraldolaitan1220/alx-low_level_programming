@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print c project at alx
- * return: always 0 (successs)
+ * main - Entry point
+ *discription:printf function
+ * Return: Always 0 (successs)
  */
 int main(void)
 {
-	 printf("with proper grammar, but the outcome is a piece of art,.\n");
-	 return(0);
+	printf("with proper grammar, but the outcome is a piece of art,.\n");
+	return (0);
 }
