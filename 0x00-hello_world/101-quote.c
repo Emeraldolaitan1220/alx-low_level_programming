@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
- * main - entry point
+ * main - Entry point
  *Discription:writing basic unix operatin system
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
