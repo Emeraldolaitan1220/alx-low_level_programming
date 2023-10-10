@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-entry point
+ * main- main Enntry point
  * Discription -printing random positive negative  number
- * return always 0
+ * Return Always 0 success
  */
 int main(void)
 {
@@ -20,9 +20,9 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
-		printf("%d is negative\n" n)
+		printf("%d is negative\n", n);
 	}
-	return(0);
+	return (0);
 }

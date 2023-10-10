@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet in lowercase and exclude q and e
- * return : always 0 success
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z';c++)
+	int i;
+
+	for (i = 97; i < 123; i++)
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
+		if (i != 101 && i != 113)
+			putchar(i);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
